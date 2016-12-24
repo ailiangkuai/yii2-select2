@@ -12,7 +12,7 @@ class Select2Asset extends AssetBundle
         'select2.min.js',
     ];
     public $css = [
-        'css/zTreeStyle/zTreeStyle.css'
+        'select2.css'
     ];
     public $depends = [
         'yii\web\JqueryAsset'
