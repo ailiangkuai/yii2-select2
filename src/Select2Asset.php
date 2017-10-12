@@ -7,12 +7,13 @@ use yii\web\AssetBundle;
 
 class Select2Asset extends AssetBundle
 {
-    public $sourcePath = '@vendor/ailiangkuai/yii2-select2/src/assets';
+    public $sourcePath = '@vendor/ailiangkuai/yii2-select2/src/assets/select2-4.0.4/dist';
     public $js = [
-        'select2.min.js',
+        'js/select2.min.js',
     ];
     public $css = [
-        'select2.css'
+        'css/select2.min.css',
+        'css/aa.css',
     ];
     public $depends = [
         'yii\web\JqueryAsset'
